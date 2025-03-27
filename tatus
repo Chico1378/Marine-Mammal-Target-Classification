@@ -1,0 +1,44 @@
+[33mbbe67e0[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m Ignore keras model files
+[33m1bf7f3e[m Remove .keras from LFS tracking
+[33medebe86[m Re-add .ipynb files as normal Git files
+[33m3cea820[m Remove .ipynb files from LFS
+[33m003fb6a[m Remove .ipynb from Git LFS tracking
+[33m4664211[m git gls
+[33me8f83a0[m Remove large keras file from Git history
+[33mf3880b3[m Remove all .keras files from repository
+[33ma5698bd[m 试了一下门控和自注意力机制，效果都比较差
+[33m67d9260[m 提取SNR、LHR特征
+[33m11cbebf[m /
+[33mb0b48d3[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m 先在各样本中打乱、分集，再合并，让测试集中类别变得均匀。 各种特征融合方式均对结果有改善，但还没到0.97以上。 希望新的算法可以到0.98或者0.99
+[33m598248b[m 修改epoch
+[33mf305acf[m 逐元素相加、加权、拼接，三种特征融合方式
+[33me81e1c7[m concarnate all Fusion
+[33mf23ea62[m /
+[33mbbff20b[m 添加ROC图
+[33md418002[m /
+[33m5eabe8c[m 修改文件夹路径；修改生成训练集数量到195
+[33m75719d2[m /
+[33m9b24d75[m Delay-Doppler
+[33me415c80[m 特征融合。但是在提取model input的时候出现了错误
+[33m2922e70[m t-SNE
+[33m53c290f[m /
+[33mc9b1473[m /
+[33m9378984[m 调试MFCC的CNN，在seed=300时还可以
+[33mdd2cb80[m /
+[33m34d3c26[m /
+[33m971ae5d[m /
+[33m0092612[m /
+[33m9f5b48c[m /
+[33m4ed0702[m /
+[33m961469e[m 保存采样率；将所有产生的文件保存到另一个本地文件夹； 让所有样本量都变为195.
+[33m37c8a9a[m Removed npy and txt files from tracking and updated .gitignore
+[33m3a9e1b7[m 信噪比和低高频能量比
+[33m99510f3[m 信噪比和低高频能量比
+[33mf2a782a[m /
+[33md9b6fcb[m 调试出合适的模型，结果指标比较均衡。分类2（WhiteSided）可能数据存在一些问题，区分度不够高。 采用了maxpooling，学习率更新
+[33m4b4b35a[m 处理X_trian和X_test成小波图
+[33m1e2f18a[m 调整分辨率；使用线性归一化方式。
+[33mb0150e3[m /
+[33m75057a4[m /
+[33m8671984[m Create README.md
+[33m0fcd507[m Add files via upload
